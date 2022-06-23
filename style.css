@@ -19,18 +19,30 @@ h1 {
     text-align: center;
 }
 
+#main-content, #other-content {
+    border-top: 2px solid #444;
+    padding-top: 24px;
+    margin-top: 24px;
+}
+
 img {
     width: 100%;
 }
 
 .secondary-article {
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
 
 @media screen and (min-width: 480px) {
     .secondary-article {
         display: grid;
         grid-template-columns: 40% 60%;
+        gap: 10px;
+    }
+    #other-content {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
         gap: 10px;
     }
 }
@@ -42,12 +54,17 @@ img {
         grid-template-columns: 50% 50%;
         grid-template-areas: 
         "main rel";
-        gap: 10px;
+        gap: 16px;
     }
     #main-article {
         grid-area: main;
     }
     #related-articles {
         grid-area: rel;
+    }
+    #other-content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
     }
 }
