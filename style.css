@@ -1,0 +1,53 @@
+
+nav {
+    display: flex;
+}
+
+nav div {
+    display: flex;
+}
+
+a {
+    margin: 4px;
+}
+
+#hearder-social-links {
+    margin-left: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.secondary-article {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 480px) {
+    .secondary-article {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        gap: 10px;
+    }
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1500px) {
+    #main-content {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        "main rel";
+        gap: 10px;
+    }
+    #main-article {
+        grid-area: main;
+    }
+    #related-articles {
+        grid-area: rel;
+    }
+}
