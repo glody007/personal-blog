@@ -1,0 +1,17 @@
+a {
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 32px;
+}
+
+#footer-content {
+    display: flex;
+    gap: 24px
+}
+
+.footer-element {
+    display: flex;
+    flex-direction: column;
+}
