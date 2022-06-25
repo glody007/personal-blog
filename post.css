@@ -1,102 +1,121 @@
-body {
+body 
+{
     margin: 0px;
 }
 
-#header-section {
+.post-header-section 
+{
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-#header-text {
+.post-header-text 
+{
     display: flex;
     flex-direction: column;
 }
 
-#type {
+.type {
     display: none;
 }
 
-#date {
+.date 
+{
     order: 1;
 }
 
-#img-section {
+.post-img-section
+ {
     order: 2;
     padding: 8px;
 }
 
-#img-article {
+.img-article 
+{
     background-image: url('placeholder.png');
     background-size: cover;
     height: 25vh;
 }
 
-#content {
+.post-content-section
+ {
     display: flex;
     flex-direction: column;
     padding: 8px;
 }
 
-#author-social-links {
+.post-author-social-links
+ {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-#article-contents {
+.article-contents 
+{
     display: none;
 }
 
-@media screen and (min-width: 700px) {
-    #header-section {
+@media screen and (min-width: 800px) {
+    .post-header-section 
+    {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: 20vh 40vh;
         row-gap: 20px;
     }
 
-    #header-text {
+    .post-header-text 
+    {
         grid-area: 1/2/1/7;
         text-align: start;
     }
 
-    #img-section {
+    .post-img-section 
+    {
         grid-area: 2/1/2/6;
         order: 2;
     }
 
-    #img-article {
+    .img-article 
+    {
         height: 40vh;
     }
 
-    #type {
+    .type 
+    {
         display: block;
         order: 3
     }
     
-    #date {
+    .date 
+    {
         order: 0;
     }
 
-    #title {
+    .title 
+    {
         order: 1;
     }
 
-    #content {
+    .post-content-section 
+    {
         display: grid;
         grid-template-columns: 1fr 2.5fr 1.5fr;
         column-gap: 20px;
         margin-top: 20px;
     }
 
-    #author-social-links {
+    .post-author-social-links
+     {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
     }
 
-    #article-contents {
+    .article-contents 
+    {
         display: flex;
         flex-direction: column;
     }
