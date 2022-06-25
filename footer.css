@@ -1,28 +1,25 @@
-a {
-    text-decoration: none;
-}
-
-footer {
+footer 
+{
     margin-top: 40px;
     padding: 16px;
 }
 
-h3 {
-    margin: 0px;
-}
-
-#footer-content {
+.footer-content 
+{
     display: flex;
     gap: 24px
 }
 
-.footer-element {
+.footer-element 
+{
     display: flex;
     flex-direction: column;
 }
 
-@media screen and (min-width: 800px) {
-    #footer-content {
+@media screen and (min-width: 800px) 
+{
+    .footer-content 
+    {
         gap: 100px
     }
 }
