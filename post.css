@@ -76,6 +76,7 @@ body
     {
         grid-area: 2/1/2/6;
         order: 2;
+        padding: 0px;
     }
 
     .img-article 
