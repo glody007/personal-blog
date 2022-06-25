@@ -16,8 +16,7 @@ nav
 
 .nav-main-link
 {
-    font-size: 16px;
-    color: #444;
+    font-size: 20px;
 }
 
 .nav-social-links 
@@ -29,5 +28,5 @@ nav
 
 .nav-social-link
 {
-    text-decoration: none;
+    font-size: 16px;
 }
