@@ -23,7 +23,9 @@ h2
 
 h3
 {
-    font-size: 24px;
+    font-size: 16px;
+    font-weight: lighter;
+    color:#444;
     margin: 4px 0px 4px 0px;
 }
 
@@ -47,6 +49,11 @@ a
     border-top: 2px solid #444;
     border-bottom: 2px solid #444;
     margin: 8px;
+}
+
+.section-title
+{
+    margin-bottom: 8px;
 }
 
 @media screen and (min-width: 800px) 
