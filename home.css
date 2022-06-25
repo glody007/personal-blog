@@ -1,7 +1,7 @@
-.home-main-content
+.home-title 
 {
-    margin: 8px;
-}
+    margin-bottom: 5vh;
+} 
 
 .other-content
 {
@@ -10,14 +10,7 @@
 
 .home-main-content
 {
-    padding-top: 24px;
-    margin-bottom: 8px;
-}
-
-.other-content 
-{
-    padding-top: 24px;
-    margin-bottom: 8px;
+    padding: 8px;
 }
 
 .card-img 
@@ -53,10 +46,10 @@
     .home-main-content 
     {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 45% 45%;
         grid-template-areas: 
         "main rel";
-        gap: 8px;
+        justify-content: space-evenly;
     }
     .article-of-the-day 
     {
@@ -65,11 +58,14 @@
     .related-articles 
     {
         grid-area: rel;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .other-content 
     {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 8px;
+        grid-template-columns: repeat(4, 20%);
+        justify-content: space-evenly;
     }
 }

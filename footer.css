@@ -7,11 +7,13 @@ footer
 {
     font-family: 'Great Vibes';
     font-size: 40px;
+    text-align: center;
 }
 
 .footer-content 
 {
     display: flex;
+    justify-content: space-evenly;
     gap: 8px
 }
 
@@ -32,6 +34,11 @@ footer
     footer
     {
         display: grid;
-        grid-template-columns: 1.2fr 0.8fr;
+        grid-template-columns: 50% 30%;
+        justify-content: space-evenly;
+    }
+    .made-with-love
+    {
+        text-align: left;
     }
 }

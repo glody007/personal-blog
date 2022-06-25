@@ -4,6 +4,11 @@ body
     font-family: 'Lato';
 }
 
+.section 
+{
+    margin-bottom: 5vh;
+}
+
 h1
 {
     font-size: 48px;
