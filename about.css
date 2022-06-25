@@ -1,8 +1,3 @@
-body 
-{
-    margin: 0px;
-}
-
 .job 
 {
     display: flex;
@@ -17,14 +12,9 @@ body
     background-size: cover;
 }
 
-h2 
-{
-    font-size: 22px;
-}
-
 .role-title 
 {
-    margin-top: 0px;
+    font-size: 22px;
 }
 
 .role 
@@ -33,8 +23,8 @@ h2
 }
 
 .content
- {
-    padding: 16px;
+{
+    padding: 8px;
 }
 
 .skill-rate 
@@ -44,7 +34,7 @@ h2
 }
 
 .rate
- {
+{
     margin-left: auto;
 }
 
@@ -53,7 +43,7 @@ h2
     .about-header-section-background 
     {
         height: 60vh;
-        background-color: #444;
+        background-color: #a64ac9;;
     }
     .about-header-section-content 
     {
@@ -74,12 +64,6 @@ h2
         height: 60vh;
         grid-area: 1/3/1/7;
         z-index: 1;
-    }
-    h1 
-    {
-        text-align: left;
-        font-size: 100px;
-        margin: 0px;
     }
     .content 
     {

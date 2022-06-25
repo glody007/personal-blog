@@ -3,6 +3,12 @@ footer
     padding: 8px;
 }
 
+.made-with-love
+{
+    font-family: 'Great Vibes';
+    font-size: 40px;
+}
+
 .footer-content 
 {
     display: flex;
@@ -13,6 +19,12 @@ footer
 {
     display: flex;
     flex-direction: column;
+}
+
+.footer-link
+{
+    font-size: 16px;
+    color: #444;
 }
 
 @media screen and (min-width: 800px) 

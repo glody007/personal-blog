@@ -1,0 +1,33 @@
+header 
+{
+    padding: 8px;
+}
+
+nav 
+{
+    display: flex;
+}
+
+.nav-main-links 
+{
+    display: flex;
+    gap: 8px;
+}
+
+.nav-main-link
+{
+    font-size: 16px;
+    color: #444;
+}
+
+.nav-social-links 
+{
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+}
+
+.nav-social-link
+{
+    text-decoration: none;
+}
