@@ -41,13 +41,13 @@
                 </div>
                 <div class="article-body">
                     <p>Le sous-apprentissage et le sur-apprentissage sont des concepts très importants à maîtriser en deep learning.</p>
-                    <p>Le premier est le fait qu’un modèle n’arrive pas généraliser ce qui fait qu’il a des mauvaises performance sur les données d’entraînements et le deuxième est le fait que le modèle mémorise les données et réalise des mauvaises performances sur les données de test. Je vais créer 3 modèles pour illustrer ces concepts, par la suite je vais montrer quelques techniques pour contrer ces problèmes.</p>
+                    <p>Le premier est le fait qu’un modèle <u>n’arrive pas généraliser</u> ce qui fait qu’il a des mauvaises performance sur les données d’entraînements et le deuxième est le fait que le modèle <u>mémorise les données</u> et réalise des mauvaises performances sur les données de test. Je vais créer 3 modèles pour illustrer ces concepts, par la suite je vais montrer quelques techniques pour contrer ces problèmes.</p>
                     <img src="img/posts/models.png" alt="Declaration 3 types of models with keras" class="article-body-image">
                     <p>Après 20 époques</p>
                     <p>Le <em class="highlighted">modèle de petite taille</em class="highlighted"> a une précision de 42% pour l’entrainement est la validation, il n’arrive pas à généraliser(<strong class="highlighted">sous-apprentissage</strong class="highlighted">).</p>
                     <p>Le <em class="highlighted">modèle de taille moyenne</em class="highlighted"> a une précision de 89% pour l’entrainement et 87% pour la validation, sur le graphique on voit que les deux erreurs sont entrain de diminuer donc <strong class="highlighted">ce n’est pas encore un sur-apprentissage</strong class="highlighted">.</p>
                     <p>Pour <em class="highlighted">le modèle de grande taille</em class="highlighted"> sur le graphique on voit qu’à partir d’un certain point l’erreur d’entrainement baisse mais l’erreur de validation continue d’augmenter, c’est <strong class="highlighted">un sur-apprentissage</strong class="highlighted">, le modèle commence à mémoriser les données.</p>
-                    <h2>Stratégies pour lutter contrer ces phénomènes</h2>
+                    <h2><u class="highlighted">Stratégies pour lutter contrer ces phénomènes</u></h2>
                     <h3>Sous-apprentissage</h3>
                     <ul>
                         <li>Ajouter la quantité de données</li>
@@ -61,6 +61,12 @@
                         <li>Early stopping</li>
                         <li>Dropout</li>
                     </ul>
+                    <figure>
+                        <blockquote cite="https://www.gsb.stanford.edu/insights/andrew-ng-why-ai-new-electricity">
+                            <p>Just as electricity transformed almost everything 100 years ago, today I actually have a hard time thinking of an industry that I don’t think AI will transform in the next several years.</p>
+                        </blockquote>
+                        <figcaption>—Andrew ng</figcaption>
+                    </figure>
                     <div class="author">
                         <img src="img/posts/avatar.png" alt="Glody Mbutwile" class="avatar">
                         <div class="author-name">
