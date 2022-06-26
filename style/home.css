@@ -71,10 +71,11 @@
     {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
     }
     .max-heigth
     {
-        height: 100%;
+        height: 90%;
     }
     .all-article-title
     {

@@ -91,6 +91,11 @@ a
     border-radius: 50px;
 }
 
+figure
+{
+    margin: 0px;
+}
+
 @media(min-width: 768px) 
 {
     h1
