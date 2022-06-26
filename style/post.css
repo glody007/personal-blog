@@ -33,7 +33,7 @@
 
 .img-article 
 {
-    background-image: url('img/posts/over-small.png');
+    background-image: url('../img/posts/over-small.png');
     background-size: cover;
     height: 25vh;
 }
@@ -87,7 +87,7 @@
 
     .img-article 
     {
-        background-image: url('img/posts/over-large.png');
+        background-image: url('../img/posts/over-large.png');
         height: 40vh;
     }
 
