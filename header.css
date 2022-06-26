@@ -6,6 +6,7 @@ header
 nav 
 {
     display: flex;
+    align-items: flex-end;
 }
 
 .nav-main-links 
