@@ -96,6 +96,12 @@ figure
     margin: 0px;
 }
 
+figcaption
+{
+    font-size: 12px;
+    color: #bbb;
+}
+
 @media(min-width: 768px) 
 {
     h1

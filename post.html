@@ -29,9 +29,10 @@
                     <h1 class="title">Sur-apprentissage et Sous-apprentissage en deep learning</h1>
                     <p class="type">Deep learning</p>
                 </div>
-                <div class="post-img-section">
+                <figure class="post-img-section">
                     <div class="img-article"></div>
-                </div>
+                    <figcaption>alterophile</figcaption>
+                </figure>
             </div>
             <div class="post-content-section section">
                 <div class="post-author-social-links">
@@ -42,7 +43,10 @@
                 <div class="article-body">
                     <p>Le sous-apprentissage et le sur-apprentissage sont des concepts très importants à maîtriser en deep learning.</p>
                     <p>Le premier est le fait qu’un modèle <u>n’arrive pas généraliser</u> ce qui fait qu’il a des mauvaises performance sur les données d’entraînements et le deuxième est le fait que le modèle <u>mémorise les données</u> et réalise des mauvaises performances sur les données de test. Je vais créer 3 modèles pour illustrer ces concepts, par la suite je vais montrer quelques techniques pour contrer ces problèmes.</p>
-                    <img src="img/posts/models.png" alt="Declaration 3 types of models with keras" class="article-body-image">
+                    <figure>
+                        <img src="img/posts/models.png" alt="Declaration 3 types of models with keras" class="article-body-image">
+                        <figcaption>Declaration 3 types of models with keras</figcaption>
+                    </figure>
                     <p>Après 20 époques</p>
                     <p>Le <em class="highlighted">modèle de petite taille</em class="highlighted"> a une précision de 42% pour l’entrainement est la validation, il n’arrive pas à généraliser(<strong class="highlighted">sous-apprentissage</strong class="highlighted">).</p>
                     <p>Le <em class="highlighted">modèle de taille moyenne</em class="highlighted"> a une précision de 89% pour l’entrainement et 87% pour la validation, sur le graphique on voit que les deux erreurs sont entrain de diminuer donc <strong class="highlighted">ce n’est pas encore un sur-apprentissage</strong class="highlighted">.</p>
@@ -68,7 +72,10 @@
                         <figcaption>—Andrew ng</figcaption>
                     </figure>
                     <div class="author">
-                        <img src="img/posts/avatar.png" alt="Glody Mbutwile" class="avatar">
+                        <figure>
+                            <img src="img/posts/avatar.png" alt="Glody Mbutwile" class="avatar">
+                            <figcaption>Glody Mbutwile</figcaption>
+                        </figure>
                         <div class="author-name">
                             <h3>Author:</h3>
                             <h3>Glody MBUTWILE</h3>

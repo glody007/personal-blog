@@ -66,12 +66,16 @@
         grid-area: 1/2/1/5;
         z-index: 2;
     }
-    .my-photo
-     {
-        background-image: url('../img/about/me.png');
+    .my-photo-wrapper
+    {
         height: 60vh;
         grid-area: 1/3/1/7;
         z-index: 1;
+    }
+    .my-photo
+     {
+        background-image: url('../img/about/me.png');
+        height: 100%;
     }
     .content 
     {
