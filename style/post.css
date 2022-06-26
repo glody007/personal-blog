@@ -62,7 +62,7 @@
     width: 100%;
 }
 
-@media(min-width: 800px) 
+@media(min-width: 768px) 
 {
     .post-header-section 
     {

@@ -91,7 +91,7 @@ a
     border-radius: 50px;
 }
 
-@media(min-width: 800px) 
+@media(min-width: 768px) 
 {
     h1
     {
