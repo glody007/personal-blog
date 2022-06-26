@@ -84,6 +84,13 @@ a
     background-color: #444;
 }
 
+.avatar
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
 @media(min-width: 800px) 
 {
     h1

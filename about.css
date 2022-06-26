@@ -38,6 +38,13 @@
     margin-left: auto;
 }
 
+.author
+{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
 @media(min-width: 800px) 
 {
     .about-header-section-background 
