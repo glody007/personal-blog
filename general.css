@@ -11,13 +11,13 @@ body
 
 h1
 {
-    font-size: 48px;
+    font-size: 32px;
     margin: 4px 0px 4px 0px;
 }
 
 h2
 {
-    font-size: 32px;
+    font-size: 24px;
     margin: 4px 0px 4px 0px;
 }
 
@@ -51,6 +51,11 @@ a
     margin: 8px;
 }
 
+.highlighted
+{
+    color: blue
+}
+
 .section-title
 {
     margin-bottom: 8px;
@@ -76,6 +81,16 @@ a
 
 @media(min-width: 800px) 
 {
+    h1
+    {
+        font-size: 48px;
+    }
+
+    h2
+    {
+        font-size: 32px;
+    }
+
     .large-title
     {
         text-align: left;

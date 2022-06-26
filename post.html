@@ -24,9 +24,9 @@
         <main>
             <div class="post-header-section section">
                 <div class="post-header-text">
-                    <p class="date">date</p>
-                    <h1 class="title">title of article</h1>
-                    <p class="type">type of article</p>
+                    <p class="date">23 juillet 2020</p>
+                    <h1 class="title">Sur-apprentissage et Sous-apprentissage en deep learning</h1>
+                    <p class="type">Deep learning</p>
                 </div>
                 <div class="post-img-section">
                     <div class="img-article"></div>
@@ -39,7 +39,27 @@
                     <button class="button">Follow</button>
                 </div>
                 <div class="article-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum odit repellat alias rerum magnam ratione reprehenderit a vel illo, sunt eum eligendi aperiam rem incidunt ipsa fugiat, cum sapiente totam?</p>
+                    <p>Le sous-apprentissage et le sur-apprentissage sont des concepts très importants à maîtriser en deep learning.</p>
+                    <p>Le premier est le fait qu’un modèle n’arrive pas généraliser ce qui fait qu’il a des mauvaises performance sur les données d’entraînements et le deuxième est le fait que le modèle mémorise les données et réalise des mauvaises performances sur les données de test. Je vais créer 3 modèles pour illustrer ces concepts, par la suite je vais montrer quelques techniques pour contrer ces problèmes.</p>
+                    <img src="img/posts/models.png" alt="Declaration 3 types of models with keras" class="article-body-image">
+                    <p>Après 20 époques</p>
+                    <p>Le <em class="highlighted">modèle de petite taille</em class="highlighted"> a une précision de 42% pour l’entrainement est la validation, il n’arrive pas à généraliser(<strong class="highlighted">sous-apprentissage</strong class="highlighted">).</p>
+                    <p>Le <em class="highlighted">modèle de taille moyenne</em class="highlighted"> a une précision de 89% pour l’entrainement et 87% pour la validation, sur le graphique on voit que les deux erreurs sont entrain de diminuer donc <strong class="highlighted">ce n’est pas encore un sur-apprentissage</strong class="highlighted">.</p>
+                    <p>Pour <em class="highlighted">le modèle de grande taille</em class="highlighted"> sur le graphique on voit qu’à partir d’un certain point l’erreur d’entrainement baisse mais l’erreur de validation continue d’augmenter, c’est <strong class="highlighted">un sur-apprentissage</strong class="highlighted">, le modèle commence à mémoriser les données.</p>
+                    <h2>Stratégies pour lutter contrer ces phénomènes</h2>
+                    <h3>Sous-apprentissage</h3>
+                    <ul>
+                        <li>Ajouter la quantité de données</li>
+                        <li>Augmenter taille ou le nombre de paramètres du modèle</li>
+                        <li>Augmenter le temps d’apprentissage jusqu’à minimiser l’erreur</li>
+                        <li>Choisir un modèle plus complexe</li>
+                    </ul>
+                    <h3>Sur-apprentissage</h3>
+                    <ul>
+                        <li>Regularisation</li>
+                        <li>Early stopping</li>
+                        <li>Dropout</li>
+                    </ul>
                 </div>
                 <div class="article-contents">
                     <a href="">link</a>

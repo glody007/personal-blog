@@ -33,7 +33,7 @@
 
 .img-article 
 {
-    background-image: url('placeholder.png');
+    background-image: url('img/posts/over-small.png');
     background-size: cover;
     height: 25vh;
 }
@@ -55,6 +55,11 @@
 .article-contents 
 {
     display: none;
+}
+
+.article-body-image
+{
+    width: 100%;
 }
 
 @media(min-width: 800px) 
@@ -82,6 +87,7 @@
 
     .img-article 
     {
+        background-image: url('img/posts/over-large.png');
         height: 40vh;
     }
 
@@ -113,6 +119,7 @@
      {
         display: flex;
         flex-direction: column;
+        justify-content: start;
         align-items: flex-end;
     }
 
